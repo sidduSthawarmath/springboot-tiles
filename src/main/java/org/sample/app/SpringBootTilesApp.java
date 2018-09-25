@@ -1,4 +1,4 @@
-package com.test.app;
+package org.sample.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @EnableAutoConfiguration
-@ComponentScan("com.test")
+@ComponentScan("org.sample")
 public class SpringBootTilesApp extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
